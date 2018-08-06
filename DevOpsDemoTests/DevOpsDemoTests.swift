@@ -21,9 +21,12 @@ class DevOpsDemoTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testIsNumberEven() {
+        let vc = DevOpsDemo()
+        let odd = 7
+        let even = 2
+        XCTAssertTrue(vc.isNumberEven(num: even))
+        XCTAssertFalse(vc.isNumberEven(num: odd))
     }
     
     func testPerformanceExample() {

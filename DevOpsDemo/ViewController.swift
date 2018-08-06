@@ -8,11 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DevOpsDemo: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    
+    func isNumberEven(num: Int) -> Bool {
+        return (num%2 == 0)
     }
 
 
