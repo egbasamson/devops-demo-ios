@@ -12,8 +12,8 @@
 		E3761C9221149FCA00C188BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3761C9021149FCA00C188BE /* Main.storyboard */; };
 		E3761C9421149FCE00C188BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3761C9321149FCE00C188BE /* Assets.xcassets */; };
 		E3761C9721149FCE00C188BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3761C9521149FCE00C188BE /* LaunchScreen.storyboard */; };
-		E3761CA221149FCE00C188BE /* DevOpsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3761CA121149FCE00C188BE /* DevOpsDemoTests.swift */; };
 		E3761CAD21149FCE00C188BE /* DevOpsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3761CAC21149FCE00C188BE /* DevOpsDemoUITests.swift */; };
+		E3761CBF211836D100C188BE /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3761CBE211836D100C188BE /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +42,11 @@
 		E3761C9621149FCE00C188BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3761C9821149FCE00C188BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3761C9D21149FCE00C188BE /* DevOpsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevOpsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3761CA121149FCE00C188BE /* DevOpsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevOpsDemoTests.swift; sourceTree = "<group>"; };
 		E3761CA321149FCE00C188BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3761CA821149FCE00C188BE /* DevOpsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevOpsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3761CAC21149FCE00C188BE /* DevOpsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevOpsDemoUITests.swift; sourceTree = "<group>"; };
 		E3761CAE21149FCE00C188BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3761CBE211836D100C188BE /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 		E3761CA021149FCE00C188BE /* DevOpsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3761CA121149FCE00C188BE /* DevOpsDemoTests.swift */,
 				E3761CA321149FCE00C188BE /* Info.plist */,
+				E3761CBE211836D100C188BE /* ViewControllerTests.swift */,
 			);
 			path = DevOpsDemoTests;
 			sourceTree = "<group>";
@@ -196,6 +196,7 @@
 					};
 					E3761C9C21149FCE00C188BE = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 						TestTargetID = E3761C8821149FCA00C188BE;
 					};
 					E3761CA721149FCE00C188BE = {
@@ -265,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3761CA221149FCE00C188BE /* DevOpsDemoTests.swift in Sources */,
+				E3761CBF211836D100C188BE /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +470,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2SACY6Y46;
 				INFOPLIST_FILE = DevOpsDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,6 +481,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pglnigeria.DevOpsDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevOpsDemo.app/DevOpsDemo";
@@ -489,7 +493,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2SACY6Y46;
 				INFOPLIST_FILE = DevOpsDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -509,6 +515,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2SACY6Y46;
 				INFOPLIST_FILE = DevOpsDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -528,6 +535,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2SACY6Y46;
 				INFOPLIST_FILE = DevOpsDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
