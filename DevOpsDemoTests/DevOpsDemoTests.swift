@@ -25,8 +25,8 @@ class DevOpsDemoTests: XCTestCase {
         let vc = DevOpsDemo()
         let odd = 7
         let even = 2
-        XCTAssertTrue(vc.isNumberEven(num: even))
-        XCTAssertFalse(vc.isNumberEven(num: odd))
+        XCTAssertTrue(vc.isNumberEven(num: odd))
+        XCTAssertFalse(vc.isNumberEven(num: even))
     }
     
     func testPerformanceExample() {
