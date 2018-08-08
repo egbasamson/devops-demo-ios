@@ -22,7 +22,7 @@ class ViewControllerTests: XCTestCase {
 
     func testIsNumberEven() {
         viewController = ViewController()
-        let odd = 9
+        let odd = 4
         _ = 2
         XCTAssertTrue(viewController.isNumberEven(num: odd))
     }
