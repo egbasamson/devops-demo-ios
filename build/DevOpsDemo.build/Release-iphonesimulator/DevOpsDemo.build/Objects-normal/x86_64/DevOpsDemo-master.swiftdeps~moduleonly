@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.0.25.1 clang-1000.10.28.1)"
+options: "03cd6851239fd55fbf1655c18091595a"
+build_time: [1533729935, 315797000]
+inputs:
+  "/Users/pgl/Documents/ProjectPlayground/DevOpsDemo/DevOpsDemo/ViewController.swift": [9223372036, 854775807]
+  "/Users/pgl/Documents/ProjectPlayground/DevOpsDemo/DevOpsDemo/AppDelegate.swift": [9223372036, 854775807]
