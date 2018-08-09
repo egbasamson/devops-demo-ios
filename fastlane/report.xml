@@ -4,10 +4,5 @@
     
     
     
-      
-      <testcase classname="fastlane.lanes" name="0: run_tests" time="37.353758">
-        
-      </testcase>
-    
   </testsuite>
 </testsuites>
