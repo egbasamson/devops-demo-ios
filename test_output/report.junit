@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='DevOpsDemoUITests.xctest' tests='2' failures='0'>
-  <testsuite name='DevOpsDemoTests.ViewControllerTests' tests='1' failures='0'>
-    <testcase classname='DevOpsDemoTests.ViewControllerTests' name='testIsNumberEven' time='0.002'/>
-  </testsuite>
-  <testsuite name='DevOpsDemoUITests.DevOpsDemoUITests' tests='1' failures='0'>
-    <testcase classname='DevOpsDemoUITests.DevOpsDemoUITests' name='testExample' time='4.410'/>
-  </testsuite>
-</testsuites>

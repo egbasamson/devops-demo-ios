@@ -9,9 +9,8 @@
 import Foundation
 
 class Fastfile: LaneFile {
-    
-    func testLane() {
-        desc("Testing all available tests")
-        runTests()
-    }
+	func customLane() {
+	desc("Description of what the lane does")
+		// add actions here: https://docs.fastlane.tools/actions
+	}
 }
