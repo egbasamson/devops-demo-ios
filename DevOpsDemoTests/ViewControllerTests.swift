@@ -26,13 +26,5 @@ class ViewControllerTests: XCTestCase {
         _ = 2
         XCTAssertTrue(viewController.isNumberEven(num: odd))
     }
-    
-    var workspace: String { return "DevOpsDemo" }
-    var scheme: String { return "DevOpsDemo" }
-    var codeCoverage: Bool? { return true }
-    var addressSanitizer: Bool? { return true }
-    var outputDirectory: String { return "./reports" }
-    var outputTypes: String { return "html,junit" }
-    var buildlogPath: String { return "~/Library/Logs/scan" }
 
 }
