@@ -36,7 +36,7 @@ class ViewControllerUITest: XCTestCase {
         XCTAssertEqual(table.cells.count, 0)
         
         app.buttons["Fill Table"].tap()
-        XCTAssertEqual(table.cells.count, 20)
+        XCTAssertEqual(table.cells.count, 19)
     }
 
 }
